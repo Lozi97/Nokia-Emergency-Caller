@@ -5,12 +5,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class Police extends AppCompatActivity {
+public class Sugar extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_police);
+        setContentView(R.layout.activity_sugar);
     }
 
     public void Main(View view)
@@ -18,5 +18,4 @@ public class Police extends AppCompatActivity {
         Intent intent = new Intent(this , MainActivity.class);
         startActivity(intent);
     }
-
 }

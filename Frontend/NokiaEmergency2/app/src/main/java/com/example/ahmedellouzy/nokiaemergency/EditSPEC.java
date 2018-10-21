@@ -18,4 +18,10 @@ public class EditSPEC extends AppCompatActivity {
         Intent intent = new Intent(this , Accident.class);
         startActivity(intent);
     }
+
+    public void Sugar(View view)
+    {
+        Intent intent = new Intent(this , Sugar.class);
+        startActivity(intent);
+    }
 }

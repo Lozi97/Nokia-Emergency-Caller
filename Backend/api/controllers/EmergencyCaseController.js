@@ -189,3 +189,27 @@ module.exports.busy = function(req, res, next) {
       });
   };
   
+
+
+  module.exports.Answered = function(req, res, next) {
+  
+    // Security Check
+   
+    res.send({
+        
+        "action": {
+          "actionToPerform": "Continue",
+          "displayAddress": "sip:+358480786518@ims8.wirelessfuture.com",
+          "digitCapture": {
+            "playingConfiguration": {
+              "playFileLocation": "https://s3.eu-central-1.amazonaws.com/emergency/Test2.wav"
+            },
+            "callParticipant": [
+              "sip:+358480786519@ims8.wirelessfuture.com"
+            ]
+          }
+        }
+      
+});
+  };
+  

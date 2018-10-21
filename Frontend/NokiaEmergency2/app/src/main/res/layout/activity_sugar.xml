@@ -4,9 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Accident">
-
-
+    tools:context=".Sugar">
     <ImageButton
         android:id="@+id/imageButton"
         android:layout_width="167dp"
@@ -15,21 +13,21 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="38dp"
         android:adjustViewBounds="true"
-        android:background="@drawable/caracc"
+        android:background="@drawable/pills"
         android:scaleType="fitCenter"
-        android:src="@drawable/caracc"
+        android:src="@drawable/pills"
         app:layout_constraintEnd_toStartOf="@+id/imageButton4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@drawable/caracc" />
+        tools:srcCompat="@drawable/pills" />
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="132dp"
-        android:layout_marginTop="184dp"
-        android:text="Car Accident"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="196dp"
+        android:text="Sugar Disorder"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -38,13 +36,13 @@
     <EditText
         android:id="@+id/editText2"
         android:layout_width="337dp"
-        android:layout_height="60dp"
+        android:layout_height="64dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="244dp"
         android:ems="10"
         android:hint="Message"
         android:inputType="textMultiLine"
-        android:text="I made an accident , please help me !"
+        android:text="I am having a sugar disorder, please help me with the pills"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -139,9 +137,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="296dp"
-        android:layout_marginTop="511dp"
+        android:layout_marginTop="516dp"
         android:onClick="Main"
         android:text="Save"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 </android.support.constraint.ConstraintLayout>

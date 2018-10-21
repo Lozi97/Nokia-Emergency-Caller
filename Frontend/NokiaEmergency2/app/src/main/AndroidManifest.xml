@@ -27,7 +27,8 @@
         <activity android:name=".Special_Cases" />
         <activity android:name=".AddCase" />
         <activity android:name=".EditSPEC" />
-        <activity android:name=".Accident"></activity>
+        <activity android:name=".Accident" />
+        <activity android:name=".Sugar"></activity>
     </application>
 
 </manifest>

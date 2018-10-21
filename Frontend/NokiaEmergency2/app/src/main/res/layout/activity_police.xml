@@ -139,6 +139,7 @@
         android:layout_marginStart="296dp"
         android:layout_marginTop="516dp"
         android:text="Save"
+        android:onClick="Main"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

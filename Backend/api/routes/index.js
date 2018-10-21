@@ -31,6 +31,7 @@ router.get(
 // router.post('/product/createProduct', productCtrl.createProduct);
 router.post('/Emergency/createEmergencyCase', EmergencyCtrl.createEmergencyCase);
 router.post('/Emergency/busy', EmergencyCtrl.busy);
+router.post('/Emergency/Answered', EmergencyCtrl.Answered);
 router.patch('/Emergency/updateEmergencyCase/:CaseID', EmergencyCtrl.updateEmergencyCase);
 router.delete('/Emergency/deleteEmergencyCase/:CaseID', EmergencyCtrl.deleteEmergencyCase);
 

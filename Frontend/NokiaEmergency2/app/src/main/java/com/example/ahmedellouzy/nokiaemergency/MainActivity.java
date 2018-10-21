@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity{
 
     public void onClickDialer(View view) {
         Intent callIntent = new Intent(Intent.ACTION_CALL);
-        callIntent.setData(Uri.parse("tel:155"));
+        callIntent.setData(Uri.parse("tel:+358480786519"));
         if (ContextCompat.checkSelfPermission(MainActivity.this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(MainActivity.this, new String[]{Manifest.permission.CALL_PHONE},REQUEST_PHONE_CALL);
         }
